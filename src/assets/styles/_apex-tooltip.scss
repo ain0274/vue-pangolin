@@ -1,0 +1,56 @@
+.apexcharts-tooltip {
+    border: none !important;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.12) !important;
+    border-radius: 8px !important;
+    overflow: hidden;
+    background: transparent !important;
+    padding: 0 !important;
+}
+
+.custom-tooltip {
+    min-width: 155px;
+    background: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-sizing: border-box;
+
+    .tooltip-header {
+        padding: 7px 12px;
+        background: #eef2f7;
+        font-size: 13px;
+        font-weight: 600;
+        color: #4b5563;
+    }
+
+    .tooltip-body {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        padding: 10px 12px;
+    }
+
+    .tooltip-row {
+        display: flex;
+        align-items: center;
+        font-size: 13px;
+
+        .dot {
+            flex-shrink: 0;
+            width: 8px;
+            height: 8px;
+            margin-right: 6px;
+            border-radius: 50%;
+        }
+
+        .label {
+            margin-right: auto;
+            color: #374151;
+        }
+
+        .value {
+            padding-left: 8px;
+            font-weight: 700;
+            color: #111827;
+        }
+    }
+}
